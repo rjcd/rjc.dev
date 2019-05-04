@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "now-build": "next build && next export -o dist",
+    "now-dev": "next -p $PORT"
+  },
+  "dependencies": {
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
